@@ -5,7 +5,21 @@ reset
  *{ 
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
  }
+
+ /* 
+ general
+  */
+
+  .container{
+    max-width: 1000px;
+    margin: auto 0 ;
+ }
+
+  img{
+    max-width: 100%;
+ }
+
+
 
