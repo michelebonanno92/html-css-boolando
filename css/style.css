@@ -16,6 +16,10 @@ reset
     margin: 0 auto;
 }
 
+.text-center{
+    text-align: center;
+}
+
  /* 
  header
   */
@@ -23,6 +27,7 @@ reset
   header{
     background-color:#FF6900 ;
   }
+
   .nav-bar{
     display: flex;
     align-items: center;
@@ -40,20 +45,15 @@ reset
     margin-right: 10px;
   }
 
-  .nav-bar nav a , .nav-bar nav h4{
+  .nav-bar nav a {
     text-decoration: none;
     color: white;
     display: inline-block;
-    padding-bottom: 3px;
-
+    padding-bottom: 5px;
   }
 
   .nav-bar img{
     max-height: 30px;
-  }
-
-  nav h4 ul{
-text-align: center;
   }
 /* 
 main
@@ -65,6 +65,15 @@ main
 
   footer{
     background-color: #1A1A1A;
+    color: white;
+  }
+
+  footer .nav-bar h5 , footer .nav-bar h6 {
+    margin-bottom: 5px;
+  }
+
+  footer .nav-bar ul li{
+    font-size: 0.7rem;
   }
   
 
