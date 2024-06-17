@@ -14,11 +14,27 @@ reset
 .container{
     max-width: 1000px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .text-center{
     text-align: center;
 }
+
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-col{
+    width: calc(100% / 3 - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    min-height: 250px;
+    background-color: red;
+    border: 5px dashed blue;
+    margin-bottom: 20px;
+}   
 
  /* 
  header
@@ -58,6 +74,9 @@ reset
 /* 
 main
  */
+
+
+
 
  /* 
  footer
