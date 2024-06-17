@@ -27,15 +27,16 @@ reset
 }
 
 .my-col{
-    width: calc(100% / 3 - 20px);
+    width: calc((100% / 3) - 20px);
     margin-left: 10px;
     margin-right: 10px;
-    min-height: 250px;
-    background-color: red;
-    border: 5px dashed blue;
     margin-bottom: 20px;
+    margin-top: 20px;
 }   
 
+img{
+    max-width: 100%;
+}
  /* 
  header
   */
