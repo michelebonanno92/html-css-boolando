@@ -11,54 +11,64 @@ reset
  /* 
  general
   */
-
-  .container{
-    max-width: 600px;
-    margin: auto 0 ;
-  
- }
-
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
  /* 
  header
   */
 
-header{
-    background-color: #FF6900 ;
-    min-height: 50px;
-    min-width: 800px;
-    position: fixed;
-    color: white;
+  header{
+    background-color:#FF6900 ;
+  }
+  .nav-bar{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-}
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: bold;
+  }
 
-header div img{
-    max-height: 1em;
-}
+  .nav-bar ul, .footer-content ul {
+    list-style: none;
+    display: flex;
+  }
 
+  .nav-bar ul li:not(:last-child){
+    margin-right: 10px;
+  }
+
+  .nav-bar nav a , .nav-bar nav h4{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding-bottom: 3px;
+
+  }
+
+  .nav-bar img{
+    max-height: 30px;
+  }
+
+  nav h4 ul{
+text-align: center;
+  }
 /* 
-footer
+main
  */
 
- footer{
+ /* 
+ footer
+  */
+
+  footer{
     background-color: #1A1A1A;
-    min-height: 50px;
-    min-width: 800px;
-    position: fixed;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
+  }
+  
 
-footer div span {
-    margin: 0 6px;
-}
 
-footer div span :not(:first-of-type){
-    margin: 0 6px;
-}
+
 
 
