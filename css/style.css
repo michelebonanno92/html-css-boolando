@@ -75,10 +75,55 @@ img{
 /* 
 main
  */
+  .card-bottom h4 {
+    font-weight: normal;
+  }
+
+  .card-bottom h2{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+  }
+
+  .card-bottom  span:first-child{
+    color: red;
+    font-weight: bold;
+  }
 
 
+  .box-red{
+    background-color: red;
+    color: white;
+    padding: 4px  8px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 2px;
+  }
 
+  .box-green{
+    background-color: green;
+    color: white;
+    padding: 4px  8px;
+    text-align: center;
+    vertical-align: middle;
+  }
 
+  .box-big{
+    position: relative;
+    bottom: 70px;
+  }
+
+  .card-top{
+   margin-bottom: -20px;
+   position: relative;
+  }
+
+ .heart{
+  position: absolute;
+  top: 8px;
+  right: 0;
+  background-color: white;
+  padding: 5px;
+ }
  /* 
  footer
   */
