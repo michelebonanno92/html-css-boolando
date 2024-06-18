@@ -35,7 +35,7 @@ reset
 }   
 
 img{
-    max-width: 100%;
+  max-width: 100%;
 }
  /* 
  header
@@ -111,11 +111,19 @@ main
     position: absolute;
     bottom:50px;
   }
+  .card-top img{
+    display: block;
+  }
 
   .card-top{
    position: relative;
+   margin-bottom: 5px;
   }
 
+  .card-top .heart:hover{
+    color: red;
+  }
+  
  .heart{
   position: absolute;
   top: 10px;
