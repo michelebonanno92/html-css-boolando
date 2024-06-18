@@ -43,6 +43,11 @@ img{
 
   header{
     background-color:#FF6900 ;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1;
   }
 
   .nav-bar{
@@ -75,6 +80,10 @@ img{
 /* 
 main
  */
+ main{
+  padding-top: 90px;
+ }
+ 
   .card-bottom h4 {
     font-weight: normal;
   }
