@@ -96,7 +96,7 @@ main
     padding: 4px  8px;
     text-align: center;
     vertical-align: middle;
-    margin-right: 2px;
+    margin-right: 5px;
   }
 
   .box-green{
@@ -108,18 +108,17 @@ main
   }
 
   .box-big{
-    position: relative;
-    bottom: 70px;
+    position: absolute;
+    bottom:50px;
   }
 
   .card-top{
-   margin-bottom: -20px;
    position: relative;
   }
 
  .heart{
   position: absolute;
-  top: 8px;
+  top: 10px;
   right: 0;
   background-color: white;
   padding: 5px;
