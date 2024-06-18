@@ -131,6 +131,20 @@ main
   background-color: white;
   padding: 5px;
  }
+
+ .card .card-top .img-two{
+  display: none;
+ }
+
+ .card:hover .card-top .img-two{
+  display: block;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+ }
+ .card:hover .card-top .img-one{
+  display: none;
+ }
  /* 
  footer
   */
